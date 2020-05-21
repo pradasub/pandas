@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np
 
 nba = pd.read_csv('./data/nba.csv')
-# dropna everywhere
+# dropna.py everywhere
 no_na_nba = nba.dropna()
 # subset drop
 nba.dropna(subset=['College'], inplace=True)
