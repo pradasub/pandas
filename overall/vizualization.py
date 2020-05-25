@@ -8,7 +8,7 @@ pd.set_option('max_columns',2)
 pd.set_option('precision',0)
 pd.set_option('display.max_columns', False)
 
-# line plots
+# line plots check
 bb.plot(y='Volume'); plt.savefig('./plots/volume.pdf',format='pdf',bbox_inches='tight'); plt.show();
 bb.plot(y='High'); plt.savefig('./plots/high.pdf',format='pdf',bbox_inches='tight'); plt.show();
 bb[['High','Low']].plot();plt.savefig('./plots/low.pdf',format='pdf',bbox_inches='tight'); plt.show()
